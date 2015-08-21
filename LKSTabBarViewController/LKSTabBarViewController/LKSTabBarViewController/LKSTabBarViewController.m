@@ -150,12 +150,8 @@
     [controllerView removeFromSuperview];
     
     UIViewController *controller = [_viewControllers objectAtIndex:index];
-    DLog(@"controlle : %@",controller);
-    DLog(@"controlle view : %@",controller.view);
     
-    DLog(@"controller.view x:%f,y:%f,width:%f,height:%f",controller.view.frame.origin.x,controller.view.frame.origin.y,controller.view.frame.size.width,controller.view.frame.size.height);
     controller.view.tag = SELECTED_CONTROLLER_TAG;
-    DLog(@"self.controller.view x:%f,y:%f,width:%f,height:%f",controller.view.frame.origin.x,controller.view.frame.origin.y,controller.view.frame.size.width,controller.view.frame.size.height);
     controller.view.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
     [self.view insertSubview:controller.view belowSubview:_lksTabBar];
 }
@@ -216,7 +212,7 @@
 {
     _selectedIndex = index;
     _selectedViewController = [_viewControllers objectAtIndex:index];
-    [self lksSelectedTabbarViewController:index];
+    [_lksTabBar switchTabbarItem:index];
 }
 
 /**

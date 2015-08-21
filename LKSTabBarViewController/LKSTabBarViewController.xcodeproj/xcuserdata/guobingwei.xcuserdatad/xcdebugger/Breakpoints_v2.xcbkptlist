@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LKSTabBarViewController/LKSTabBarViewController/LKSTabBarViewController.m"
-            timestampString = "461859694.843575"
+            timestampString = "461861386.234593"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "311"
-            endingLineNumber = "311"
+            startingLineNumber = "307"
+            endingLineNumber = "307"
             landmarkName = "-lksTabBar:didSelectItemAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
