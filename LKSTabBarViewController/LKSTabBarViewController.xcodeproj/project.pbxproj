@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9282B24C1B84BA1C00740A9D /* LKSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B24B1B84BA1C00740A9D /* LKSTabBar.m */; };
+		9282B2501B84D4EA00740A9D /* LKSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B24E1B84D4EA00740A9D /* LKSTabBarViewController.m */; };
+		9282B2511B84D4EA00740A9D /* LKSTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B24F1B84D4EA00740A9D /* LKSTabBarViewController.xib */; };
+		9282B2551B84DC8B00740A9D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B2531B84DC8B00740A9D /* HomeViewController.m */; };
+		9282B2561B84DC8B00740A9D /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B2541B84DC8B00740A9D /* HomeViewController.xib */; };
+		9282B25A1B84DC9A00740A9D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B2581B84DC9A00740A9D /* MessageViewController.m */; };
+		9282B25B1B84DC9A00740A9D /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B2591B84DC9A00740A9D /* MessageViewController.xib */; };
+		9282B25F1B84DCB100740A9D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B25D1B84DCB100740A9D /* SearchViewController.m */; };
+		9282B2601B84DCB100740A9D /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B25E1B84DCB100740A9D /* SearchViewController.xib */; };
+		9282B2641B84DCC300740A9D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B2621B84DCC300740A9D /* ProfileViewController.m */; };
+		9282B2651B84DCC300740A9D /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B2631B84DCC300740A9D /* ProfileViewController.xib */; };
+		9282B2691B84E4E400740A9D /* IOS7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B2681B84E4E400740A9D /* IOS7ViewController.m */; };
+		9282B26D1B84EBC300740A9D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B26B1B84EBC300740A9D /* DetailViewController.m */; };
+		9282B26E1B84EBC300740A9D /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B26C1B84EBC300740A9D /* DetailViewController.xib */; };
+		92DDD6401B84846F005765BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD63F1B84846F005765BD /* main.m */; };
+		92DDD6431B84846F005765BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD6421B84846F005765BD /* AppDelegate.m */; };
+		92DDD6461B84846F005765BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD6451B84846F005765BD /* ViewController.m */; };
+		92DDD6491B84846F005765BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DDD6471B84846F005765BD /* Main.storyboard */; };
+		92DDD64B1B84846F005765BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DDD64A1B84846F005765BD /* Images.xcassets */; };
+		92DDD64E1B84846F005765BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DDD64C1B84846F005765BD /* LaunchScreen.xib */; };
+		92DDD65A1B84846F005765BD /* LKSTabBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD6591B84846F005765BD /* LKSTabBarViewControllerTests.m */; };
+		92DDD6661B8484C9005765BD /* LKSTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD6651B8484C9005765BD /* LKSTabBarItem.m */; };
+		92DE8ACE1B86A9B60054E3E5 /* LKSNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE8ACD1B86A9B60054E3E5 /* LKSNavigationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92DDD6541B84846F005765BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92DDD6321B84846F005765BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92DDD6391B84846F005765BD;
+			remoteInfo = LKSTabBarViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9282B24A1B84BA1C00740A9D /* LKSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSTabBar.h; sourceTree = "<group>"; };
+		9282B24B1B84BA1C00740A9D /* LKSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSTabBar.m; sourceTree = "<group>"; };
+		9282B24D1B84D4EA00740A9D /* LKSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSTabBarViewController.h; sourceTree = "<group>"; };
+		9282B24E1B84D4EA00740A9D /* LKSTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSTabBarViewController.m; sourceTree = "<group>"; };
+		9282B24F1B84D4EA00740A9D /* LKSTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LKSTabBarViewController.xib; sourceTree = "<group>"; };
+		9282B2521B84DC8B00740A9D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9282B2531B84DC8B00740A9D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9282B2541B84DC8B00740A9D /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9282B2571B84DC9A00740A9D /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		9282B2581B84DC9A00740A9D /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		9282B2591B84DC9A00740A9D /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		9282B25C1B84DCB100740A9D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		9282B25D1B84DCB100740A9D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		9282B25E1B84DCB100740A9D /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		9282B2611B84DCC300740A9D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		9282B2621B84DCC300740A9D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		9282B2631B84DCC300740A9D /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		9282B2661B84DF0000740A9D /* CommonDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefination.h; sourceTree = "<group>"; };
+		9282B2671B84E4E400740A9D /* IOS7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS7ViewController.h; sourceTree = "<group>"; };
+		9282B2681B84E4E400740A9D /* IOS7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS7ViewController.m; sourceTree = "<group>"; };
+		9282B26A1B84EBC300740A9D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9282B26B1B84EBC300740A9D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9282B26C1B84EBC300740A9D /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		92DDD63A1B84846F005765BD /* LKSTabBarViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKSTabBarViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DDD63E1B84846F005765BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DDD63F1B84846F005765BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		92DDD6411B84846F005765BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		92DDD6421B84846F005765BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		92DDD6441B84846F005765BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		92DDD6451B84846F005765BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		92DDD6481B84846F005765BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92DDD64A1B84846F005765BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		92DDD64D1B84846F005765BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		92DDD6531B84846F005765BD /* LKSTabBarViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSTabBarViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92DDD6581B84846F005765BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DDD6591B84846F005765BD /* LKSTabBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSTabBarViewControllerTests.m; sourceTree = "<group>"; };
+		92DDD6641B8484C9005765BD /* LKSTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSTabBarItem.h; sourceTree = "<group>"; };
+		92DDD6651B8484C9005765BD /* LKSTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSTabBarItem.m; sourceTree = "<group>"; };
+		92DE8ACC1B86A9B60054E3E5 /* LKSNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSNavigationViewController.h; sourceTree = "<group>"; };
+		92DE8ACD1B86A9B60054E3E5 /* LKSNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSNavigationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92DDD6371B84846F005765BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DDD6501B84846F005765BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9282B2391B84AB8A00740A9D /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		92DDD6311B84846F005765BD = {
+			isa = PBXGroup;
+			children = (
+				92DDD63C1B84846F005765BD /* LKSTabBarViewController */,
+				92DDD6561B84846F005765BD /* LKSTabBarViewControllerTests */,
+				92DDD63B1B84846F005765BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		92DDD63B1B84846F005765BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92DDD63A1B84846F005765BD /* LKSTabBarViewController.app */,
+				92DDD6531B84846F005765BD /* LKSTabBarViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92DDD63C1B84846F005765BD /* LKSTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9282B2391B84AB8A00740A9D /* images */,
+				92DDD6411B84846F005765BD /* AppDelegate.h */,
+				92DDD6421B84846F005765BD /* AppDelegate.m */,
+				92DDD6441B84846F005765BD /* ViewController.h */,
+				92DDD6451B84846F005765BD /* ViewController.m */,
+				9282B2521B84DC8B00740A9D /* HomeViewController.h */,
+				9282B2531B84DC8B00740A9D /* HomeViewController.m */,
+				9282B2541B84DC8B00740A9D /* HomeViewController.xib */,
+				9282B2571B84DC9A00740A9D /* MessageViewController.h */,
+				9282B2581B84DC9A00740A9D /* MessageViewController.m */,
+				9282B2591B84DC9A00740A9D /* MessageViewController.xib */,
+				9282B25C1B84DCB100740A9D /* SearchViewController.h */,
+				9282B25D1B84DCB100740A9D /* SearchViewController.m */,
+				9282B25E1B84DCB100740A9D /* SearchViewController.xib */,
+				9282B2611B84DCC300740A9D /* ProfileViewController.h */,
+				9282B2621B84DCC300740A9D /* ProfileViewController.m */,
+				9282B2631B84DCC300740A9D /* ProfileViewController.xib */,
+				9282B2671B84E4E400740A9D /* IOS7ViewController.h */,
+				9282B2681B84E4E400740A9D /* IOS7ViewController.m */,
+				9282B26A1B84EBC300740A9D /* DetailViewController.h */,
+				9282B26B1B84EBC300740A9D /* DetailViewController.m */,
+				9282B26C1B84EBC300740A9D /* DetailViewController.xib */,
+				9282B2661B84DF0000740A9D /* CommonDefination.h */,
+				92DE8ACC1B86A9B60054E3E5 /* LKSNavigationViewController.h */,
+				92DE8ACD1B86A9B60054E3E5 /* LKSNavigationViewController.m */,
+				92DDD6631B84849A005765BD /* LKSTabBarViewController */,
+				92DDD6471B84846F005765BD /* Main.storyboard */,
+				92DDD64A1B84846F005765BD /* Images.xcassets */,
+				92DDD64C1B84846F005765BD /* LaunchScreen.xib */,
+				92DDD63D1B84846F005765BD /* Supporting Files */,
+			);
+			path = LKSTabBarViewController;
+			sourceTree = "<group>";
+		};
+		92DDD63D1B84846F005765BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DDD63E1B84846F005765BD /* Info.plist */,
+				92DDD63F1B84846F005765BD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92DDD6561B84846F005765BD /* LKSTabBarViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				92DDD6591B84846F005765BD /* LKSTabBarViewControllerTests.m */,
+				92DDD6571B84846F005765BD /* Supporting Files */,
+			);
+			path = LKSTabBarViewControllerTests;
+			sourceTree = "<group>";
+		};
+		92DDD6571B84846F005765BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				92DDD6581B84846F005765BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		92DDD6631B84849A005765BD /* LKSTabBarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92DDD6641B8484C9005765BD /* LKSTabBarItem.h */,
+				92DDD6651B8484C9005765BD /* LKSTabBarItem.m */,
+				9282B24A1B84BA1C00740A9D /* LKSTabBar.h */,
+				9282B24B1B84BA1C00740A9D /* LKSTabBar.m */,
+				9282B24D1B84D4EA00740A9D /* LKSTabBarViewController.h */,
+				9282B24E1B84D4EA00740A9D /* LKSTabBarViewController.m */,
+				9282B24F1B84D4EA00740A9D /* LKSTabBarViewController.xib */,
+			);
+			path = LKSTabBarViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92DDD6391B84846F005765BD /* LKSTabBarViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DDD65D1B84846F005765BD /* Build configuration list for PBXNativeTarget "LKSTabBarViewController" */;
+			buildPhases = (
+				92DDD6361B84846F005765BD /* Sources */,
+				92DDD6371B84846F005765BD /* Frameworks */,
+				92DDD6381B84846F005765BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKSTabBarViewController;
+			productName = LKSTabBarViewController;
+			productReference = 92DDD63A1B84846F005765BD /* LKSTabBarViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92DDD6521B84846F005765BD /* LKSTabBarViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DDD6601B84846F005765BD /* Build configuration list for PBXNativeTarget "LKSTabBarViewControllerTests" */;
+			buildPhases = (
+				92DDD64F1B84846F005765BD /* Sources */,
+				92DDD6501B84846F005765BD /* Frameworks */,
+				92DDD6511B84846F005765BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92DDD6551B84846F005765BD /* PBXTargetDependency */,
+			);
+			name = LKSTabBarViewControllerTests;
+			productName = LKSTabBarViewControllerTests;
+			productReference = 92DDD6531B84846F005765BD /* LKSTabBarViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92DDD6321B84846F005765BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = guobingwei;
+				TargetAttributes = {
+					92DDD6391B84846F005765BD = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 5H24997647;
+					};
+					92DDD6521B84846F005765BD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 92DDD6391B84846F005765BD;
+					};
+				};
+			};
+			buildConfigurationList = 92DDD6351B84846F005765BD /* Build configuration list for PBXProject "LKSTabBarViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92DDD6311B84846F005765BD;
+			productRefGroup = 92DDD63B1B84846F005765BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92DDD6391B84846F005765BD /* LKSTabBarViewController */,
+				92DDD6521B84846F005765BD /* LKSTabBarViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92DDD6381B84846F005765BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DDD6491B84846F005765BD /* Main.storyboard in Resources */,
+				92DDD64E1B84846F005765BD /* LaunchScreen.xib in Resources */,
+				9282B2561B84DC8B00740A9D /* HomeViewController.xib in Resources */,
+				9282B2601B84DCB100740A9D /* SearchViewController.xib in Resources */,
+				9282B26E1B84EBC300740A9D /* DetailViewController.xib in Resources */,
+				9282B2651B84DCC300740A9D /* ProfileViewController.xib in Resources */,
+				92DDD64B1B84846F005765BD /* Images.xcassets in Resources */,
+				9282B25B1B84DC9A00740A9D /* MessageViewController.xib in Resources */,
+				9282B2511B84D4EA00740A9D /* LKSTabBarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DDD6511B84846F005765BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92DDD6361B84846F005765BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DDD6461B84846F005765BD /* ViewController.m in Sources */,
+				92DE8ACE1B86A9B60054E3E5 /* LKSNavigationViewController.m in Sources */,
+				9282B2501B84D4EA00740A9D /* LKSTabBarViewController.m in Sources */,
+				9282B2691B84E4E400740A9D /* IOS7ViewController.m in Sources */,
+				9282B24C1B84BA1C00740A9D /* LKSTabBar.m in Sources */,
+				92DDD6431B84846F005765BD /* AppDelegate.m in Sources */,
+				9282B2641B84DCC300740A9D /* ProfileViewController.m in Sources */,
+				9282B25F1B84DCB100740A9D /* SearchViewController.m in Sources */,
+				92DDD6401B84846F005765BD /* main.m in Sources */,
+				9282B2551B84DC8B00740A9D /* HomeViewController.m in Sources */,
+				9282B25A1B84DC9A00740A9D /* MessageViewController.m in Sources */,
+				92DDD6661B8484C9005765BD /* LKSTabBarItem.m in Sources */,
+				9282B26D1B84EBC300740A9D /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92DDD64F1B84846F005765BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92DDD65A1B84846F005765BD /* LKSTabBarViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92DDD6551B84846F005765BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92DDD6391B84846F005765BD /* LKSTabBarViewController */;
+			targetProxy = 92DDD6541B84846F005765BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92DDD6471B84846F005765BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DDD6481B84846F005765BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92DDD64C1B84846F005765BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92DDD64D1B84846F005765BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92DDD65B1B84846F005765BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		92DDD65C1B84846F005765BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92DDD65E1B84846F005765BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LKSTabBarViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		92DDD65F1B84846F005765BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = LKSTabBarViewController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		92DDD6611B84846F005765BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LKSTabBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKSTabBarViewController.app/LKSTabBarViewController";
+			};
+			name = Debug;
+		};
+		92DDD6621B84846F005765BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LKSTabBarViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKSTabBarViewController.app/LKSTabBarViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92DDD6351B84846F005765BD /* Build configuration list for PBXProject "LKSTabBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DDD65B1B84846F005765BD /* Debug */,
+				92DDD65C1B84846F005765BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DDD65D1B84846F005765BD /* Build configuration list for PBXNativeTarget "LKSTabBarViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DDD65E1B84846F005765BD /* Debug */,
+				92DDD65F1B84846F005765BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DDD6601B84846F005765BD /* Build configuration list for PBXNativeTarget "LKSTabBarViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92DDD6611B84846F005765BD /* Debug */,
+				92DDD6621B84846F005765BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92DDD6321B84846F005765BD /* Project object */;
+}
