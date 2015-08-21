@@ -62,19 +62,6 @@
         //self.navigationController.navigationBar.translucent = NO;
     }
     
-    /*
-    if ([self.navigationController.navigationBar respondsToSelector:@selector(setBackgroundImage: forBarPosition: barMetrics:)]){
-        UIImage *backgroundImage = [UIImage imageNamed:@"bg_titlebar_ios7.png"];
-        [self.navigationController.navigationBar setBackgroundImage:backgroundImage forBarPosition:UIBarPositionTopAttached barMetrics:UIBarMetricsDefault];
-    } else if ([self.navigationController.navigationBar respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]){
-        UIImage *backgroundImage = [UIImage imageNamed:@"bg_searchbar.png"];
-        [self.navigationController.navigationBar setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
-    }
-    [self.navigationController.navigationBar setBackgroundColor:[UIColor whiteColor]];
-    [self.navigationController.navigationBar setBarStyle:UIBarStyleBlack];
-    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-     */
-    
     if (isIOS7) {
         [self.navigationController.navigationBar setBarTintColor:NAV_BG_COLOR];
     }else{

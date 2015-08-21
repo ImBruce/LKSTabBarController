@@ -9,18 +9,6 @@
 #ifndef laikeren_CommonDefination_h
 #define laikeren_CommonDefination_h
 
-//常用宏定义的字符串
-#define NC_APP_AUTO_LOGIN @"nc_app_auto_login"
-#define NC_APP_REMEMBER_PWD @"nc_app_remember_pwd"
-
-
-#define IS_LOGIN @"IS_LOGIN"
-#define NC_USER_ID @"nc_user_id"
-#define NC_USER_NAME @"nc_user_name"
-#define NC_USER_PASSWORD @"nc_user_password"
-
-//接口地址使用
-
 //常用颜色值
 #define VIEW_CONTROLLER_BG_COLOR [UIColor colorWithRed:249.0/255.0 green:249.0/255.0 blue:249.0/255.0 alpha:1.0]
 #define BORDER_COLOR [UIColor colorWithRed:237.0/255.0 green:237.0/255.0 blue:237.0/255.0 alpha:1.0]

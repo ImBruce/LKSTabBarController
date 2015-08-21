@@ -29,7 +29,6 @@
 		92DDD64E1B84846F005765BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92DDD64C1B84846F005765BD /* LaunchScreen.xib */; };
 		92DDD65A1B84846F005765BD /* LKSTabBarViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD6591B84846F005765BD /* LKSTabBarViewControllerTests.m */; };
 		92DDD6661B8484C9005765BD /* LKSTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DDD6651B8484C9005765BD /* LKSTabBarItem.m */; };
-		92DE8ACE1B86A9B60054E3E5 /* LKSNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92DE8ACD1B86A9B60054E3E5 /* LKSNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +80,6 @@
 		92DDD6591B84846F005765BD /* LKSTabBarViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSTabBarViewControllerTests.m; sourceTree = "<group>"; };
 		92DDD6641B8484C9005765BD /* LKSTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSTabBarItem.h; sourceTree = "<group>"; };
 		92DDD6651B8484C9005765BD /* LKSTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSTabBarItem.m; sourceTree = "<group>"; };
-		92DE8ACC1B86A9B60054E3E5 /* LKSNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSNavigationViewController.h; sourceTree = "<group>"; };
-		92DE8ACD1B86A9B60054E3E5 /* LKSNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,8 +151,6 @@
 				9282B26B1B84EBC300740A9D /* DetailViewController.m */,
 				9282B26C1B84EBC300740A9D /* DetailViewController.xib */,
 				9282B2661B84DF0000740A9D /* CommonDefination.h */,
-				92DE8ACC1B86A9B60054E3E5 /* LKSNavigationViewController.h */,
-				92DE8ACD1B86A9B60054E3E5 /* LKSNavigationViewController.m */,
 				92DDD6631B84849A005765BD /* LKSTabBarViewController */,
 				92DDD6471B84846F005765BD /* Main.storyboard */,
 				92DDD64A1B84846F005765BD /* Images.xcassets */,
@@ -313,7 +308,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				92DDD6461B84846F005765BD /* ViewController.m in Sources */,
-				92DE8ACE1B86A9B60054E3E5 /* LKSNavigationViewController.m in Sources */,
 				9282B2501B84D4EA00740A9D /* LKSTabBarViewController.m in Sources */,
 				9282B2691B84E4E400740A9D /* IOS7ViewController.m in Sources */,
 				9282B24C1B84BA1C00740A9D /* LKSTabBar.m in Sources */,
