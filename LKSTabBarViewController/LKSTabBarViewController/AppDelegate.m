@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RootViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,8 +22,13 @@
     LKSTabBarViewController *tmpTabbar = [[LKSTabBarViewController alloc] init];
     tmpTabbar.lksTabBarStatuAnimateMode = LKSTabBarStatuAnimateModePosition;
     self.lksTabBar = tmpTabbar;
-    
+    [self.lksTabBar switchTabbarControllers:0];
     self.window.rootViewController = self.lksTabBar;
+    
+    /*
+    RootViewController *root = [[RootViewController alloc] init];
+    self.window.rootViewController = root;
+     */
     
     return YES;
 }

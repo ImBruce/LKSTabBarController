@@ -154,9 +154,9 @@
     DLog(@"controlle view : %@",controller.view);
     
     DLog(@"controller.view x:%f,y:%f,width:%f,height:%f",controller.view.frame.origin.x,controller.view.frame.origin.y,controller.view.frame.size.width,controller.view.frame.size.height);
-    controller.view.frame = CGRectMake(0,0,ScreenWidth, self.view.frame.size.height);
     controller.view.tag = SELECTED_CONTROLLER_TAG;
     DLog(@"self.controller.view x:%f,y:%f,width:%f,height:%f",controller.view.frame.origin.x,controller.view.frame.origin.y,controller.view.frame.size.width,controller.view.frame.size.height);
+    controller.view.frame = CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height);
     [self.view insertSubview:controller.view belowSubview:_lksTabBar];
 }
 
@@ -198,7 +198,7 @@
  */
 - (void)showLKSTabBar
 {
-    _lksTabBar = [[LKSTabBar alloc] init];
+    _lksTabBar = [[LKSTabBar alloc] initWithFrame:CGRectMake(0, (ScreenHeight - 48.0), self.view.frame.size.width, 48.0)];
     _lksTabBar.delegate = self;
     _lksTabBar.items = [self lksTabBarItems];
     _lksTabBar.autoresizingMask = UIViewAutoresizingFlexibleWidth;

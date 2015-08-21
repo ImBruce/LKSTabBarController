@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		923A83331B87607000F921D9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A83311B87607000F921D9 /* RootViewController.m */; };
+		923A83341B87607000F921D9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 923A83321B87607000F921D9 /* RootViewController.xib */; };
 		9282B24C1B84BA1C00740A9D /* LKSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B24B1B84BA1C00740A9D /* LKSTabBar.m */; };
 		9282B2501B84D4EA00740A9D /* LKSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9282B24E1B84D4EA00740A9D /* LKSTabBarViewController.m */; };
 		9282B2511B84D4EA00740A9D /* LKSTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9282B24F1B84D4EA00740A9D /* LKSTabBarViewController.xib */; };
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		923A83301B87607000F921D9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		923A83311B87607000F921D9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		923A83321B87607000F921D9 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		9282B24A1B84BA1C00740A9D /* LKSTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSTabBar.h; sourceTree = "<group>"; };
 		9282B24B1B84BA1C00740A9D /* LKSTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKSTabBar.m; sourceTree = "<group>"; };
 		9282B24D1B84D4EA00740A9D /* LKSTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKSTabBarViewController.h; sourceTree = "<group>"; };
@@ -133,6 +138,9 @@
 				92DDD6421B84846F005765BD /* AppDelegate.m */,
 				92DDD6441B84846F005765BD /* ViewController.h */,
 				92DDD6451B84846F005765BD /* ViewController.m */,
+				923A83301B87607000F921D9 /* RootViewController.h */,
+				923A83311B87607000F921D9 /* RootViewController.m */,
+				923A83321B87607000F921D9 /* RootViewController.xib */,
 				9282B2521B84DC8B00740A9D /* HomeViewController.h */,
 				9282B2531B84DC8B00740A9D /* HomeViewController.m */,
 				9282B2541B84DC8B00740A9D /* HomeViewController.xib */,
@@ -283,6 +291,7 @@
 			files = (
 				92DDD6491B84846F005765BD /* Main.storyboard in Resources */,
 				92DDD64E1B84846F005765BD /* LaunchScreen.xib in Resources */,
+				923A83341B87607000F921D9 /* RootViewController.xib in Resources */,
 				9282B2561B84DC8B00740A9D /* HomeViewController.xib in Resources */,
 				9282B2601B84DCB100740A9D /* SearchViewController.xib in Resources */,
 				9282B26E1B84EBC300740A9D /* DetailViewController.xib in Resources */,
@@ -317,6 +326,7 @@
 				92DDD6401B84846F005765BD /* main.m in Sources */,
 				9282B2551B84DC8B00740A9D /* HomeViewController.m in Sources */,
 				9282B25A1B84DC9A00740A9D /* MessageViewController.m in Sources */,
+				923A83331B87607000F921D9 /* RootViewController.m in Sources */,
 				92DDD6661B8484C9005765BD /* LKSTabBarItem.m in Sources */,
 				9282B26D1B84EBC300740A9D /* DetailViewController.m in Sources */,
 			);
